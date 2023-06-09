@@ -366,8 +366,8 @@ $(document).ready(function()
 			{
 				range: true,
 				min: 0,
-				max: 100000,
-				values: [ 0, 58789 ],
+				max: 300000,
+				values: [ 0, 258789 ],
 				slide: function( event, ui )
 				{
 					$( "#amount" ).val( "$" + ui.values[ 0 ] + " - $" + ui.values[ 1 ] );
